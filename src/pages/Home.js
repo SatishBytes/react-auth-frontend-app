@@ -23,7 +23,7 @@ function Home() {
 
     const fetchProducts = async () => {
         try {
-            const url = "react-auth-backend-app.vercel.app/products";
+            const url = "https://react-auth-backend-app.vercel.app/products";
             const response = await fetch(url, {
                 method: 'GET',
                 headers: {
